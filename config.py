@@ -6,11 +6,13 @@
 class Config(object):
     DEBUG = False
     TESTING = False
-    DATABASE_URI = ''
+    MONGODB_DB = 'main'
 
 # These classes inherit Config and change something about it
 class ProductionConfig(Config):
-    DATABASE_URI = ''
+    DEBUG = False
+    ENV = 'production'
 
 class DevelopmentConfig(Config):
     DEBUG = True
+    ENV = 'development'
