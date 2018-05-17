@@ -16,7 +16,12 @@ and *bam* you have everything you need and the right versions
 Now, run the app with
 * `pipenv run python run.py`
 
-To break that down for you, `pipenv run` runs the following command in the virtual environment our pipfile creates (a perfect world where all dependencies are met) and then python app.py simply runs the python file! 
+To break that down for you, `pipenv run` runs the following command in the virtual environment our pipfile creates (a perfect world where all dependencies are met) and then python run.py simply runs the python package contained in `api/`! 
+
+## Deployment
+
+Heroku automatically deploys from the master branch of this repository.
+It uses the Procfile to determine what to do, right now we're running a gunicorn server on a single Heroku dyno.
 
 ## Styleguide
 Use [PEP8](https://www.python.org/dev/peps/pep-0008/)
