@@ -9,5 +9,5 @@ print(app.config)
 # connect DB
 # db = MongoEngine(app)
 
-# a simple page that says hello
+# import all routes
 from api.routes import *
