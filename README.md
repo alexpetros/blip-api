@@ -14,7 +14,7 @@ and *bam* you have everything you need and the right versions
 (this will probably download python 3.6 for the peasants and also flask)
 
 Now, run the app with
-* `pipenv run python app.py`
+* `pipenv run python run.py`
 
 To break that down for you, `pipenv run` runs the following command in the virtual environment our pipfile creates (a perfect world where all dependencies are met) and then python app.py simply runs the python file! 
 
