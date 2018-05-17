@@ -7,6 +7,9 @@ This is a python 3.6 flask server with all python dependencies managed by pipenv
 To install the system tools this project uses
 1. `brew install pipenv`
 
+For Windows, use
+1. `pip install pipenv`
+
 To install the dependencies of the project (right now just flask), cd into the repo and then run
 1. `pipenv install`
 
